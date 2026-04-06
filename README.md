@@ -16,7 +16,7 @@ This project demonstrates the use of AI to transform unstructured daily habits i
 Many people struggle with unclear routines, lack of prioritization, and hidden inefficiencies in their day.
 
 
-This tool helps by:
+This tool helps by-
 
 • Breaking down daily activities
 
