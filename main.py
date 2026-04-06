@@ -1,37 +1,23 @@
-import os
-from dotenv import load_dotenv
-from openai import OpenAI
+prompt = f"""
+You are an expert productivity coach.
 
-load_dotenv()
+Analyze the following workflow and respond in this EXACT format:
 
+Workflow Breakdown:
+- Step-by-step breakdown
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+Inefficiencies:
+- Bullet points
 
-def analyze_workflow(user_input):
-    prompt = f"""
-    You are an AI workflow optimization expert.
+Improvements:
+- Actionable suggestions
 
-    Analyze the following workflow:
-    {user_input}
+Optimized Workflow:
+- Numbered improved workflow
 
-    Identify:
-    - Inefficiencies
-    - Bottlenecks
-    - Suggested improvements
-    - Optimized version of the workflow
+Productivity Score:
+- Score out of 10 with a short explanation
 
-    Keep it clear and structured.
-    """
-
-    response = client.chat.completions.create(
-        model="gpt-4.1-mini",
-        messages=[
-            {"role": "user", "content": prompt}
-        ]
-    )
-    return response.choices[0].message.content
-
-
-if __name__ == "__main__":
-    user_input = input("Enter your workflow: ")
-    print(analyze_workflow(user_input))
+Workflow:
+{user_input}
+"""
