@@ -1,4 +1,10 @@
-prompt = f"""
+from openai import OpenAI
+import os
+
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
+def analyze_workflow(user_input):
+    prompt = f"""
 You are an expert productivity coach.
 
 Analyze the following workflow and respond in this EXACT format:
@@ -21,3 +27,10 @@ Productivity Score:
 Workflow:
 {user_input}
 """
+
+response = client.chat.completions.create(
+model="gpt-4.1-mini",
+messages=[{"role": "user", "content": prompt}]
+)
+
+return response.choices[0].message.content
