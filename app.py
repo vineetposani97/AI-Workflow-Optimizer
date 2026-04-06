@@ -22,11 +22,14 @@ if st.button("Analyze"):
         st.markdown("## 📋 Results")
 
         # Split sections from AI output
-        sections = result.split("\n\n")
+        sections = result.split("\n")
 
         for section in sections:
+            section = section.strip()
 
-            # 🔥 Add clean headers manually
+            if not section:
+                continue # skip empty lines
+
             if "Inefficiencies" in section:
                 st.markdown("### 🔴 Inefficiencies")
             elif "Improvements" in section:
@@ -35,15 +38,9 @@ if st.button("Analyze"):
                 st.markdown("### ⚡ Optimized Workflow")
             elif "Productivity Score" in section:
                 st.markdown("### 💡 Productivity Score")
+            else:
+                st.markdown(section)
 
-            # 🔥 Remove duplicate headings from AI output
-            cleaned = section.replace("Inefficiencies:", "") \
-                .replace("Improvements:", "") \
-                .replace("Optimized Workflow:", "") \
-                .replace("Productivity Score:", "") \
-                .strip()
-
-            st.markdown(cleaned)
 
         # ✅ OUTSIDE LOOP (no repetition)
         st.info("💡 Small improvements daily = massive results over time.")
