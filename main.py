@@ -22,9 +22,9 @@ def analyze_workflow(user_input):
     {user_input}
     """
 
-    response = client.chat.completions.create(
+    response = client.responses.create(
         model="gpt-4o-mini",
-        messages=[{"role": "user", "content": prompt}]
-    )
+        input=prompt
+)
 
-    return response.choices[0].message.content
+    return response.output[0].content[0].text
