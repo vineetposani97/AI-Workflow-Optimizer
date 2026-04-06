@@ -1,3 +1,13 @@
+import streamlit as st
+from main import analyze_workflow
+
+st.set_page_config(page_title="AI Workflow Optimizer", page_icon="🚀")
+
+st.title("🚀 AI Workflow Optimizer")
+st.markdown("Optimize your daily routines using AI")
+
+user_input = st.text_area("Enter your workflow:", height=150)
+
 if st.button("Analyze"):
     if user_input:
         with st.spinner("Analyzing your workflow..."):
