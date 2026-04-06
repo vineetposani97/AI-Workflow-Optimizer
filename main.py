@@ -1,3 +1,8 @@
+from openai import OpenAI
+import os
+
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
 def analyze_workflow(user_input):
     prompt = f"""You are an expert productivity coach.
 
