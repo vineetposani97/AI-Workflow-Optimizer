@@ -144,6 +144,7 @@ These are terminal commands-
 "cd AI-Workflow-Optimizer" means - Go inside the project folder you just downloaded. 
 
 git clone - Download the folder 
+
 cd - Open the folder
 
 2) Install Dependencies-
