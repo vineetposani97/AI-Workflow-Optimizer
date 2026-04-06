@@ -134,4 +134,17 @@ streamlit run app.py
 
 👤 Author
 
+<<<<<<< HEAD
 Built by Vineet Aditya Posani 🚀
+=======
+- Web interface (Streamlit / Flask)
+- Save outputs to file
+- More advanced workflow scoring
+- Personalized productivity recommendations
+
+---
+
+## 👤 Author
+
+Built by Vineet Aditya Posani 🚀
+>>>>>>> 27469a43f9c952cbc64f1d88ce36f999568e4b73
