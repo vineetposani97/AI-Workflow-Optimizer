@@ -2,7 +2,7 @@ AI Workflow Optimizer
 
 👉 Streamlit Link: https://vineet-posani-ai-workflow-optimizer.streamlit.app/
 
-📌 Overview
+📌 Overview:
 
 
 The AI Workflow Optimizer is an AI-powered productivity tool that analyzes a user’s daily routine, identifies inefficiencies, and generates an optimized workflow to improve focus and efficiency.
@@ -10,7 +10,7 @@ The AI Workflow Optimizer is an AI-powered productivity tool that analyzes a use
 
 This project demonstrates the use of AI to transform unstructured daily habits into structured, actionable routines.
 
-🎯 Purpose
+🎯 Purpose:
 
 
 Many people struggle with unclear routines, lack of prioritization, and hidden inefficiencies in their day.
@@ -27,7 +27,7 @@ This tool helps by:
 • Creating a structured and optimized workflow
 
 
-⚙️ Tech Stack
+⚙️ Tech Stack:
 
 • Python
 
@@ -38,7 +38,7 @@ This tool helps by:
 • python-dotenv
 
 
-✨ Features
+✨ Features:
 
 • Analyze daily workflows using AI
 
@@ -53,7 +53,7 @@ This tool helps by:
 • Clean and interactive Streamlit UI
 
 
-🧠 How It Works
+🧠 How It Works:
 
 
 The user enters their daily routine as input.
@@ -125,7 +125,7 @@ Optimized Workflow-
 7) End-of-day review
 
 
-🌐 Live Demo
+🌐 Live Demo:
 
 👉 https://vineet-posani-ai-workflow-optimizer.streamlit.app/
 
@@ -161,7 +161,7 @@ streamlit run app.py
 http://localhost:8501
 
 
-🚧 Future Improvements
+🚧 Future Improvements:
 
 • Save analysis results
 
@@ -173,6 +173,6 @@ http://localhost:8501
 
 • Mobile-friendly UI
 
-👨‍💻 Author
+👨‍💻 Author:
 
 Built by Vineet Aditya Posani 🚀
