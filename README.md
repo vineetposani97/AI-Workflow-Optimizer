@@ -132,11 +132,15 @@ Optimized Workflow
 Setup Instructions:
 
 1) Clone the repository-
+   
 git clone https://github.com/your-username/AI-Workflow-Optimizer.git
+
 cd AI-Workflow-Optimizer
 
 These are terminal commands-
+
 "git clone" means - Download this project from GitHub to your computer.
+
 "cd AI-Workflow-Optimizer" means - Go inside the project folder you just downloaded. 
 
 git clone - Download the folder 
