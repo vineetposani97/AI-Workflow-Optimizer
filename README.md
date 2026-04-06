@@ -17,39 +17,39 @@ Many people struggle with unclear routines, lack of prioritization, and hidden i
 
 This tool helps by:
 
-Breaking down daily activities
+• Breaking down daily activities
 
-Identifying time-wasting patterns
+• Identifying time-wasting patterns
 
-Suggesting improvements
+• Suggesting improvements
 
-Creating a structured and optimized workflow
+• Creating a structured and optimized workflow
 
 
 ⚙️ Tech Stack
 
-Python
+• Python
 
-Streamlit
+• Streamlit
 
-OpenAI API
+• OpenAI API
 
-python-dotenv
+• python-dotenv
 
 
 ✨ Features
 
-Analyze daily workflows using AI
+• Analyze daily workflows using AI
 
-Detect inefficiencies and bottlenecks
+• Detect inefficiencies and bottlenecks
 
-Suggest actionable improvements
+• Suggest actionable improvements
 
-Generate optimized daily routines
+• Generate optimized daily routines
 
-Provide a productivity score
+• Provide a productivity score
 
-Clean and interactive Streamlit UI
+• Clean and interactive Streamlit UI
 
 
 🧠 How It Works
@@ -71,7 +71,7 @@ The system then generates:
 📊 Productivity Score — Overall efficiency rating
 
 
-Example Usage
+🧪 Example Usage
 
 Input:
 
@@ -80,48 +80,48 @@ I wake up, scroll Instagram, attend random meetings, and procrastinate
 
 Output:
 
-Inefficiencies
+• Inefficiencies
 
-Scrolling Instagram first thing reduces focus
+• Scrolling Instagram first thing reduces focus
 
-Random meetings disrupt deep work
+• Random meetings disrupt deep work
 
-Procrastination delays important tasks
+• Procrastination delays important tasks
 
 
 Bottlenecks
 
-No structured start to the day
+• No structured start to the day
 
-Meetings without clear agenda
+• Meetings without clear agenda
 
-Lack of task prioritization
+• Lack of task prioritization
 
 
 Improvements
 
-Replace scrolling with planning or light exercise
+• Replace scrolling with planning or light exercise
 
-Schedule meetings with clear goals
+• Schedule meetings with clear goals
 
-Break tasks into smaller steps
+• Break tasks into smaller steps
 
 
 Optimized Workflow
 
-Wake up
+1) Wake up
 
-Morning routine (planning + light exercise)
+2) Morning routine (planning + light exercise)
 
-Focused work block (60–90 mins)
+3) Focused work block (60–90 mins)
 
-Scheduled meetings with agenda
+4) Scheduled meetings with agenda
 
-Short breaks
+5) Short breaks
 
-Continue prioritized tasks
+6) Continue prioritized tasks
 
-End-of-day review
+7) End-of-day review
 
 
 🌐 Live Demo
@@ -157,15 +157,15 @@ http://localhost:8501
 
 🚧 Future Improvements
 
-Save analysis results
+• Save analysis results
 
-Personalized recommendations
+• Personalized recommendations
 
-Advanced scoring system
+• Advanced scoring system
 
-User authentication
+• User authentication
 
-Mobile-friendly UI
+• Mobile-friendly UI
 
 👨‍💻 Author
 
