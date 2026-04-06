@@ -133,7 +133,7 @@ Setup Instructions:
 
 1) Clone the repository-
    
-git clone https://github.com/your-username/AI-Workflow-Optimizer.git
+git clone https://github.com/vineetposani97/AI-Workflow-Optimizer/tree/master
 
 cd AI-Workflow-Optimizer
 
