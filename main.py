@@ -26,7 +26,7 @@ Productivity Score:
 
 Workflow:
 {user_input}
-"""
+    """
 
 response = client.chat.completions.create(
     model="gpt-4o-mini",
