@@ -81,7 +81,7 @@ I wake up, scroll Instagram, attend random meetings, and procrastinate
 
 Output:
 
-• Inefficiencies
+Inefficiencies-
 
 • Scrolling Instagram first thing reduces focus
 
@@ -90,7 +90,7 @@ Output:
 • Procrastination delays important tasks
 
 
-Bottlenecks
+Bottlenecks-
 
 • No structured start to the day
 
@@ -99,7 +99,7 @@ Bottlenecks
 • Lack of task prioritization
 
 
-Improvements
+Improvements-
 
 • Replace scrolling with planning or light exercise
 
@@ -108,7 +108,7 @@ Improvements
 • Break tasks into smaller steps
 
 
-Optimized Workflow
+Optimized Workflow-
 
 1) Wake up
 
