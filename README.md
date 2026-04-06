@@ -1,6 +1,6 @@
 AI Workflow Optimizer
 
-Streamlit Link: https://vineet-posani-ai-workflow-optimizer.streamlit.app/
+👉 Streamlit Link: https://vineet-posani-ai-workflow-optimizer.streamlit.app/
 
 📌 Overview
 
@@ -134,7 +134,7 @@ Setup Instructions:
 
 1) Clone the repository-
    
-git clone https://github.com/vineetposani97/AI-Workflow-Optimizer/tree/master
+👉 git clone https://github.com/vineetposani97/AI-Workflow-Optimizer/tree/master
 
 cd AI-Workflow-Optimizer
 
