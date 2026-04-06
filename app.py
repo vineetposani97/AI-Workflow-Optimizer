@@ -1,4 +1,4 @@
-import streamlit as st
+import streamlit as st 
 from main import analyze_workflow
 
 st.set_page_config(page_title="AI Workflow Optimizer", page_icon="🚀", layout="centered")
