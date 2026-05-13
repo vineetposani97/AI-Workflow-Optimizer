@@ -33,9 +33,11 @@ This tool helps by-
 
 • Streamlit
 
-• OpenAI API
+• Cursor
 
-• python-dotenv
+• GitHub
+
+• OpenAI API
 
 
 ✨ Features:
